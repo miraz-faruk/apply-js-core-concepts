@@ -1,10 +1,10 @@
 function isEven(number){
     const remainder = number % 2;
     if(remainder === 0){
-        console.log("number is even");
+        console.log("True");
     }
     else{
-        console.log("number is odd");
+        console.log("False");
     }
 }
 
