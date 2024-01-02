@@ -5,7 +5,7 @@ function inchToFeet(inches){
 
 const dadaInches = 144;
 const dadaFeet = inchToFeet(dadaInches);
-console.log(dadaFeet);
+console.log('dada feet:',dadaFeet);
 
 const nanaInches = 60;
 const nanaFeet = inchToFeet(nanaInches);

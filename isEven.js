@@ -1,12 +1,14 @@
 function isEven(number){
     const remainder = number % 2;
     if(remainder === 0){
-        console.log("True");
+        return true;
     }
     else{
-        console.log("False");
+        return false;
     }
 }
 
-const muNumber = isEven(303);
+const herNumber = isEven(303);
+console.log(herNumber);
 const myNumber = isEven(12280);
+console.log(myNumber);
